@@ -1,0 +1,15 @@
+[project]
+name = "lcc-backend"
+version = "0.1.0"
+description = "Backend for competitive coding platform (tentatively named as LCC) backend"
+authors = [
+    {name = "Mathesh Premkumar", email = "matheshpremkumar@gmail.com"},
+]
+dependencies = ["fastapi[standard]>=0.135.1", "sqlalchemy[asyncio]>=2.0.48", "alembic>=1.18.4", "asyncpg>=0.31.0", "sqlalchemy-utils>=0.42.1", "psycopg>=3.3.3"]
+requires-python = "==3.12.2"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
